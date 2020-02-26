@@ -81,11 +81,15 @@ li {
   margin-bottom: 10px;
 }
 
-/* contact info list COME BACK TO THIS SOMETHING'S WRONG */
+/* contact info list */
 .menu {
   margin: 0px;
   padding: 0px;
   text-align: center;
+}
+
+/* inline list */
+.menu li {
   display: inline;
   list-style-type: none;
 }
