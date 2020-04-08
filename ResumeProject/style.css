@@ -1,0 +1,136 @@
+/* all text */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  color: #313438;
+  background-color: #FAF9F3;
+}
+
+/* footer text */
+footer {
+  text-align: center;
+  border-top: 1px solid #33485e;
+}
+
+/* navbar font */
+.navbar {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* style for entire webpage */
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  border-width: 50px;
+}
+
+/* banner alignment */
+#banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* button padding */
+#buttons {
+  padding-bottom: 30px;
+}
+
+/* section text alignments */
+#experience {
+  width: 60%
+  margin: 0 auto;
+  text-align: center;
+}
+
+#education {
+  text-align: center;
+}
+
+#skills {
+  text-align: center;
+}
+
+#shortlist {
+  text-align: left;
+}
+
+/* bootstrap experience blocks */
+.col-xs-6.col-sm-4 {
+  border: 3px solid #A0AAB7;
+  border-radius: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* section titles */
+.sectionheader {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight:700;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+/* job titles */
+.jobtitle {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+/* organizations */
+.organization {
+  font-weight: 400;
+  font-size: 0.84em;
+  padding: 8px;
+}
+
+/* job dates */
+.date {
+  font-weight:400;
+  font-size:0.7em;
+  font-style: italic;
+  padding: 10px;
+}
+
+/* paragraph descriptions */
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* mission statement */
+.top {
+  width: 80%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+/* bootstrap grid system breakpoints and media queries */
+@media only screen and (min-width: 600px) {
+  .col-xs-6.col-sm-4 {width: 100%}
+  .col-xs-6.col-sm-6 {width: 100%}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-xs-6.col-sm-4 {width: 100%}
+  .col-xs-6.col-sm-6 {width: 100%}
+}
+
+@media only screen and (min-width: 992px) {
+  .col-xs-6.col-sm-4 {width: 100%}
+  .col-xs-6.col-sm-6 {width: 50%}
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-xs-6.col-sm-4 {width: 100%}
+  .col-xs-6.col-sm-6 {width: 50%}
+}
