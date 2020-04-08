@@ -55,7 +55,6 @@ footer {
 .col-xs-6.col-sm-4 {
   border: 3px solid #A0AAB7;
   border-radius: 20px;
-  width: 33.3%;
   max-width: 400px;
   margin: 0 auto;
   padding: 5px;
@@ -114,7 +113,7 @@ footer {
   .col-xs-6.col-sm-6 {width: 100%}
 }
 
-@media only screen and (min-width: 992px)) {
+@media only screen and (min-width: 992px) {
   .col-xs-6.col-sm-4 {width: 100%}
   .col-xs-6.col-sm-6 {width: 50%}
 }
