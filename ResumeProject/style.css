@@ -74,22 +74,21 @@ footer {
 /* job titles */
 .jobtitle {
   font-weight: 700;
-  font-size: 1.45em;
+  font-size: 1.5em;
 }
 
 /* organizations */
 .organization {
   font-weight: 400;
-  font-size: 1.1em;
-  padding: 10px;
+  font-size: 0.84em;
+  padding: 8px;
 }
 
 /* job dates */
 .date {
   font-weight:400;
-  font-size:0.8em;
+  font-size:0.7em;
   font-style: italic;
-  margin-top: 2px;
   padding: 10px;
 }
 
@@ -111,16 +110,16 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .col-xs-6.col-sm-4 {width: 33.3%}
+  .col-xs-6.col-sm-4 {width: 100%}
   .col-xs-6.col-sm-6 {width: 100%}
 }
 
 @media only screen and (min-width: 992px)) {
-  .col-xs-6.col-sm-4 {width: 33.3%}
+  .col-xs-6.col-sm-4 {width: 100%}
   .col-xs-6.col-sm-6 {width: 50%}
 }
 
 @media only screen and (min-width: 1200px) {
-  .col-xs-6.col-sm-4 {width: 33.3%}
+  .col-xs-6.col-sm-4 {width: 100%}
   .col-xs-6.col-sm-6 {width: 50%}
 }
