@@ -6,11 +6,13 @@ body {
   background-color: #FAF9F3;
 }
 
+/* footer text */
 footer {
   text-align: center;
   border-top: 1px solid #33485e;
 }
 
+/* navbar font */
 .navbar {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -24,16 +26,19 @@ footer {
   border-width: 50px;
 }
 
+/* banner alignment */
 #banner {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* button padding */
 #buttons {
   padding-bottom: 30px;
 }
 
+/* section text alignments */
 #experience {
   width: 60%
   margin: 0 auto;
@@ -52,6 +57,7 @@ footer {
   text-align: left;
 }
 
+/* bootstrap experience blocks */
 .col-xs-6.col-sm-4 {
   border: 3px solid #A0AAB7;
   border-radius: 20px;
@@ -108,6 +114,7 @@ footer {
   text-align: center;
 }
 
+/* bootstrap grid system breakpoints and media queries */
 @media only screen and (min-width: 768px) {
   .col-xs-6.col-sm-4 {width: 100%}
   .col-xs-6.col-sm-6 {width: 100%}
